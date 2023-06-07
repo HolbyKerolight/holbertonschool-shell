@@ -1,4 +1,4 @@
 #!/bin/bash
 
-workspace_path=$(pwd)
-echo $workspace_path
+cwd=$(pwd)
+echo $cwd
