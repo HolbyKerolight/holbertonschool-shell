@@ -1,9 +1,15 @@
-#holbertonschool-shell
+# Project Title
 
-Codes whrite here are for linux permissions
+This project is my first experience with shell scripts
 
-stockage information
+##  of Contents
 
-GitHub repository: holbertonschool-shell
-Directory: permissions
-File: 0-iam_betty
+- basics (content shell basics scripts files as print;list;move...)
+- permissions (content shell permissions scripts files as ...)
+
+## Contact
+
+Personal email : mailto:viakerolight@gmail.com
+Holbertonschool email : mailto:6726@holbertonstudents.com
+
+
