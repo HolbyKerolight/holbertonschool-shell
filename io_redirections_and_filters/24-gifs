@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif"
+find . -type f -name "*.gif" -exec rename 's|/\.git||g' {} + | rev | cut -d/ -f1 | rev 
