@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif" -exec sh -c 'mv "$0" "${0/\/.git/}" |  rm "$0"' {}
+find . -type f -name "*.gif" -exec sh -c 'mv "$1" "${1%????}"' sh {} | | rev | cut -d/ -f1 | rev
